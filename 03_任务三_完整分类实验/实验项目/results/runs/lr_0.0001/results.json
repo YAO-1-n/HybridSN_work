@@ -1,0 +1,17 @@
+{
+  "lr": 0.0001,
+  "epochs": 100,
+  "batch": 256,
+  "optimizer": "Adam",
+  "weight_decay": 1e-06,
+  "seed": 666,
+  "best_epoch": 40,
+  "best_validation_OA": 0.999766191255553,
+  "train_minutes": 3.7353258689244586,
+  "split_sha256": "104ac360a30b1ed3d25e7b2be708b6028dd154daf6f7fb8b17da699ad5df3046",
+  "initial_weights_sha256": "ba6631d8e9aa8d661d66543c8cf1c37f22628834f70cb034fdd256dae6dc96af",
+  "params": 4844793,
+  "OA": 0.9993766314723186,
+  "AA": 0.9987780652502745,
+  "Kappa": 0.9991739658790373
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "row": 529,
+    "col": 126,
+    "true_id": 4,
+    "pred_id": 2
+  },
+  {
+    "row": 115,
+    "col": 85,
+    "true_id": 4,
+    "pred_id": 8
+  },
+  {
+    "row": 537,
+    "col": 23,
+    "true_id": 8,
+    "pred_id": 2
+  },
+  {
+    "row": 529,
+    "col": 127,
+    "true_id": 4,
+    "pred_id": 2
+  }
+]

@@ -7,7 +7,7 @@ SUPPLEMENT=ROOT/'05_任务五_三组对比实验'/'补充对比_3＋1与2＋2'
 required=[ROOT/'README.md',ROOT/'requirements.txt',PROJECT/'model.py',PROJECT/'run_experiments.py',PROJECT/'predict_saved.py',PROJECT/'results/pca.pkl',PROJECT/'results/split.npz']
 for folder in ('03_任务三_完整分类实验','04_任务四_分类图与错误分析','05_任务五_三组对比实验','06_任务六_总结与报告'):
     required.append(ROOT/folder/'README.md')
-required.extend((ROOT/'04_任务四_分类图与错误分析'/'结果分析.txt',ROOT/'05_任务五_三组对比实验'/'对比分析.txt',ROOT/'06_任务六_总结与报告'/'experiment_report.pdf',ROOT/'06_任务六_总结与报告'/'八道反思题.md'))
+required.extend((ROOT/'04_任务四_分类图与错误分析'/'结果分析.txt',ROOT/'05_任务五_三组对比实验'/'对比分析.txt',ROOT/'06_任务六_总结与报告'/'experiment_report.docx',ROOT/'06_任务六_总结与报告'/'八道反思题.md'))
 for run in ('lr_0.0001','lr_0.001','lr_0.01'):
     required.extend(PROJECT/'results/runs'/run/name for name in ('best_model.pth','results.json','history.json','per_class.json','confusion_matrix.png','training_curves.png'))
 required.extend(SUPPLEMENT/name for name in ('README.md','HybridSN_2＋2_对比实验.py','表格/12组结果汇总.csv','表格/6组成对差异.csv','表格/12组混淆矩阵计数.csv'))

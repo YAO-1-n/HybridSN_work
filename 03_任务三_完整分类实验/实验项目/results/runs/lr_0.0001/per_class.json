@@ -1,0 +1,69 @@
+{
+  "Asphalt": {
+    "precision": 0.9989957318604067,
+    "recall": 1.0,
+    "f1-score": 0.9994976136649083,
+    "support": 3979.0
+  },
+  "Meadows": {
+    "precision": 0.9998213009292352,
+    "recall": 1.0,
+    "f1-score": 0.9999106424805647,
+    "support": 11190.0
+  },
+  "Gravel": {
+    "precision": 0.9944620253164557,
+    "recall": 0.9984114376489277,
+    "f1-score": 0.9964328180737217,
+    "support": 1259.0
+  },
+  "Trees": {
+    "precision": 1.0,
+    "recall": 0.9972811310494835,
+    "f1-score": 0.9986387149469099,
+    "support": 1839.0
+  },
+  "Painted metal sheets": {
+    "precision": 0.9987639060568603,
+    "recall": 1.0,
+    "f1-score": 0.9993815708101422,
+    "support": 808.0
+  },
+  "Bare Soil": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3017.0
+  },
+  "Bitumen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 798.0
+  },
+  "Self-Blocking Bricks": {
+    "precision": 0.9990925589836661,
+    "recall": 0.996831145314622,
+    "f1-score": 0.9979605710401088,
+    "support": 2209.0
+  },
+  "Shadows": {
+    "precision": 1.0,
+    "recall": 0.9964788732394366,
+    "f1-score": 0.9982363315696648,
+    "support": 568.0
+  },
+  "accuracy": 0.9993766314723186,
+  "macro avg": {
+    "precision": 0.9990150581274028,
+    "recall": 0.9987780652502745,
+    "f1-score": 0.998895362509558,
+    "support": 25667.0
+  },
+  "weighted avg": {
+    "precision": 0.9993777521032056,
+    "recall": 0.9993766314723186,
+    "f1-score": 0.9993766336481138,
+    "support": 25667.0
+  }
+}

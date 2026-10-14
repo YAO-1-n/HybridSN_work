@@ -1,0 +1,38 @@
+{
+  "dataset": "Pavia University",
+  "shape": [
+    610,
+    340,
+    103
+  ],
+  "n_labels": 42776,
+  "class_counts": {
+    "0": 164624,
+    "1": 6631,
+    "2": 18649,
+    "3": 2099,
+    "4": 3064,
+    "5": 1345,
+    "6": 5029,
+    "7": 1330,
+    "8": 3682,
+    "9": 947
+  },
+  "train": 12832,
+  "val": 4277,
+  "test": 25667,
+  "seed": 666,
+  "split_sha256": "104ac360a30b1ed3d25e7b2be708b6028dd154daf6f7fb8b17da699ad5df3046",
+  "PCA_fit": "training centers only",
+  "PCA_components": 15,
+  "whiten": true,
+  "svd_solver": "full",
+  "patch": 25,
+  "padding": "constant zero",
+  "validation_every": 5,
+  "selection": "highest validation OA; earliest epoch on ties",
+  "test_evaluation": "once after selection for each prespecified learning rate",
+  "spatial_limitation": "random centers are disjoint, but adjacent patches overlap; not a held-out spatial-region benchmark",
+  "pca_variance": 0.9992161643968621,
+  "setup_seconds": 0.35741114616394043
+}

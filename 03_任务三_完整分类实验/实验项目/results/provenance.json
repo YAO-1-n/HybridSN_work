@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "path": "data\\PaviaU.mat",
+      "bytes": 34806917,
+      "sha256": "28447fa87f7a5797845e9a189c0da85e23b1d06a4ba7361e5ff44efbf834d2fb"
+    },
+    {
+      "path": "data\\PaviaU_gt.mat",
+      "bytes": 11005,
+      "sha256": "23f6a426928f9b32984adffe659e29f554f9fb6c93b5a107528d308d5087a829"
+    },
+    {
+      "path": "data\\README.md",
+      "bytes": 683,
+      "sha256": "667e2a1bbc07b31259b419928c6ac138daf250049258fd454426b30e80240627"
+    },
+    {
+      "path": "results\\runs\\lr_0.0001\\source_used\\model.py",
+      "bytes": 979,
+      "sha256": "783a11d2350b851f5e96884ac67bc9abe8aa49c8549945b8443a95220249239b"
+    },
+    {
+      "path": "results\\runs\\lr_0.0001\\source_used\\run_experiments.py",
+      "bytes": 15054,
+      "sha256": "1b6ffc14c4d214302c3a25d55191e20c6c5bebedd18e130666ae75537200313d"
+    }
+  ],
+  "source_model": "Adapted from local pavia_experiment/train_hybridsn_pavia.py",
+  "source_paper": "Roy et al. DOI 10.1109/LGRS.2019.2918719"
+}

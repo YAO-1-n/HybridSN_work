@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "all_pixels_equal": true,
+  "pixels": 207400,
+  "meaning": "Separate process reloaded saved PCA and saved model and reproduced all map pixels."
+}

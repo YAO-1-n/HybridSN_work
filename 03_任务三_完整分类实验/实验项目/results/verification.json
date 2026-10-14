@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "train/val/test centers disjoint",
+    "all groups same split and initial weights",
+    "lr 0.0001: 100 actual epoch records, test metrics and confusion independently recomputed",
+    "lr 0.001: 100 actual epoch records, test metrics and confusion independently recomputed",
+    "lr 0.01: 100 actual epoch records, test metrics and confusion independently recomputed",
+    "saved model/PCA reload: all 207400 pixels equal"
+  ]
+}
